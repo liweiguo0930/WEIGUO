@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+    <ImageView>
+        <Image url="/img/2.jpg"/>
+    </ImageView>
+    <children>
+        <TextField layoutX="197.0" layoutY="135.0" prefHeight="29.0" prefWidth="228.0" />
+        <TextField layoutX="197.0" layoutY="188.0" prefHeight="29.0" prefWidth="228.0" style="-fx-background-color: #00;" />
+        <Label layoutX="133.0" layoutY="135.0" prefHeight="29.0" prefWidth="48.0" text="账号：" textFill="#cdc0c0">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="133.0" layoutY="186.0" prefHeight="29.0" prefWidth="48.0" text="密码：" textFill="#cdc0c0">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Button layoutX="109.0" layoutY="256.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="145.0" style="-fx-background-color: #0066FF;" text="登录" textFill="#ebe7e7">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Button>
+        <Button layoutX="311.0" layoutY="256.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="145.0" style="-fx-background-color: #0066FF;" text="退出" textFill="#f8f3f3">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Button>
+        <Label alignment="CENTER" layoutY="-7.0" prefHeight="58.0" prefWidth="600.0" style="-fx-background-color: #0000CC;" text="超市收银系统" textFill="#ebe7e7">
+            <font>
+                <Font size="25.0" />
+            </font>
+        </Label>
+        <Button contentDisplay="CENTER" layoutX="376.0" layoutY="330.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="99.0" text="忘记密码 | 找回" textFill="#282727" />
+    </children>
+</AnchorPane>
