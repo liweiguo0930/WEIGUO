@@ -1,4 +1,4 @@
 package com.soft1841.dao.impl;
 
-public class GoodsDAOImpl {
+public class ReceiveDAOImpl {
 }

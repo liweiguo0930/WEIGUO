@@ -1,4 +1,4 @@
 package com.soft1841.entity;
 
-public class Goods {
+public class Good {
 }
